@@ -3,4 +3,4 @@
   become: true
   tasks:
     - name: install nginx
-      apt: name=nginx update_cache=yes
+      apt: name=nginx good night update_cache=yes
