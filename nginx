@@ -2,5 +2,5 @@
 - hosts: nginx
   become: true
   tasks:
-    - name: install nginx
+    - name: install nginx 12345
       apt: name=nginx good night update_cache=yes
